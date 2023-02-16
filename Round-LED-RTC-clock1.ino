@@ -246,7 +246,7 @@ byte getLEDMinuteOrSecond(byte minuteOrSecond) {
 }
 
 boolean night() {
-  if (ora >= NIGHTCUTOFF || ora <= MORNINGCUTOFF) 
+  if (ora >= NIGHTCUTOFF || ora < MORNINGCUTOFF) 
     return true;    
     else
     return false;    
