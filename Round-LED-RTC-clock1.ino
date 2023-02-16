@@ -45,7 +45,7 @@ CRGB colorAll = CRGB::White;
 // Cutoff times for day / night brightness.
 #define USE_NIGHTCUTOFF true   // Enable/Disable night brightness
 #define USE_AUTODST false       // Enable/Disable automatic chnge of summer time (DST) or manualy (D5 = HIGH -> summer time)
-#define MORNINGCUTOFF 8         // When does daybrightness begin?   8am
+#define MORNINGCUTOFF 7         // When does daybrightness begin?   8am
 #define NIGHTCUTOFF 19          // When does nightbrightness begin? 10pm
 #define NIGHTBRIGHTNESS 4       // Brightness level from 0 (off) to 255 (full brightness)
 #define DAYBRIGHTNESS 40        // Brightness level from 0 (off) to 255 (full brightness)
